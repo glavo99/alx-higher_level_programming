@@ -4,6 +4,6 @@ if __name__ == "__main__":
 
 length = len(sys.argv)
 summ = 0
-if i in range(length - 1):
+if i in range(1, length):
     sum += int(sys.argv[i])
 print("{}".format(summ))
